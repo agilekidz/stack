@@ -58,6 +58,20 @@ The documentation for Yarn can found [here](https://classic.yarnpkg.com/en/docs/
 
 ### Jest – JavaScript testing framework
 
+Jest is a testing framework for JavaScript with easy syntax and good support for different libraries, such as React.
+
+#### Usage
+
+To run all tests in a package run
+
+```sh
+yarn test
+```
+
+in the package directory (e.g. packages/frontend).
+
+To run all tests for all packages in a project run the same command in the root of the project.
+
 #### Documentation
 
 The documentation for Jest can be found [here](https://jestjs.io/docs/en/getting-started).
