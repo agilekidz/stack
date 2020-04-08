@@ -1,5 +1,9 @@
 # stack
 
+## Overview
+
+![Image of stack](.github/images/stack.png)
+
 ## Devops
 
 ### Git and GitHub
