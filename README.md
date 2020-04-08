@@ -115,7 +115,7 @@ Some IDE's can automatically report on found issues in current files, and fix pr
      "source.fixAll.eslint": true
    }
    ```
-   Adding the following prevent VSCode from automatically formatting using its own formatter on save
+   Adding the following prevents VSCode from automatically formatting using its own formatter on save (if using Prettier through ESLint)
    ```json
    "[javascript]": {
      "editor.formatOnSave": false,
@@ -136,6 +136,12 @@ Some IDE's can automatically report on found issues in current files, and fix pr
 You can read the documentation for ESLint [here](https://eslint.org/docs/user-guide/getting-started).
 
 ### Prettier – Formatting code (JavaScript etc.)
+
+Prettier is an opinionated code formatter that integrates well with ESLint.
+
+#### Usage
+
+Usage is integrated with ESLint so it is automatically run when using `yarn lint:fix`, which can be configured to be executed when saving a file.
 
 #### Documentation
 
