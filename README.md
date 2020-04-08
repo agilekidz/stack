@@ -153,6 +153,8 @@ You can read the documentation for Prettier [here](https://prettier.io/docs/en/i
 
 ### TravisCI – continuous integration
 
+TravisCI is an continuous integration platform that works well with GitHub. When code is pushed to the GitHub repository Travis automatically builds, lints, and tests the project to make sure everything is working as intended. If Travis finds build, lint, or test errors it reports back to GitHub, preventing merging code that does not work properly.
+
 #### Documentation
 
 You can read the documentation for TravisCI [here](https://docs.travis-ci.com/user/tutorial/).
