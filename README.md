@@ -83,6 +83,54 @@ The documentation for Jest can be found [here](https://jestjs.io/docs/en/getting
 
 ### ESLint – JavaScript linting
 
+ESLint is a very configurable linting tool for JavaScript. Helps maintain high code quality in an easy way.
+
+#### Usage
+
+To lint all files in a package run
+
+```sh
+yarn lint
+# or
+yarn lint:fix
+# to fix issues if found
+```
+
+in the package directory (e.g. packages/frontend).
+
+To lint all the files for all packages in a project run the same command in the root of the project.
+
+The configuration for ESLint can be found in `.eslintrc.js` file found in the root and in each package directory.
+
+#### IDE integration
+
+Some IDE's can automatically report on found issues in current files, and fix problems that can be fixed when saving files.
+
+##### Visual Studio Code
+
+1. Install the `dbaeumer.vscode-eslint` extension
+2. Add the following to your VSCode `settings.json`
+   ```json
+   "editor.codeActionsOnSave": {
+     "source.fixAll.eslint": true
+   }
+   ```
+   Adding the following prevent VSCode from automatically formatting using its own formatter on save
+   ```json
+   "[javascript]": {
+     "editor.formatOnSave": false,
+   },
+   "[javascriptreact]": {
+     "editor.formatOnSave": false,
+   },
+   "[typescript]": {
+     "editor.formatOnSave": false,
+   },
+   "[typescriptreact]": {
+     "editor.formatOnSave": false,
+   }
+   ```
+
 #### Documentation
 
 You can read the documentation for ESLint [here](https://eslint.org/docs/user-guide/getting-started).
