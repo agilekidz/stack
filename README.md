@@ -8,6 +8,139 @@
 
 ### Git and GitHub
 
+Git is a version control system and is used to coordinating work among programmers and track files changes over time. GitHub is a Git repository hosting service, which adds a graphical user interface and many other features on top of git.
+
+#### Git repository
+
+A git repository is just folder that has a commit history, often containing code projects.
+
+A new repository can be created but running the following command in the directory that you want to become a repository.
+
+```sh
+git init
+```
+
+Repositories can be copied, or cloned from other repositories
+
+```sh
+git clone <location of repository>
+# Example
+git clone https://github.com/facebook/react
+```
+
+#### Git commit
+
+A git commit is a snapshot of the state of a git repository at a specific time, which contains information about what has changed since the last commit.
+
+A commit can be made to a git repository with the following command
+
+```sh
+git commit -m "<your descriptive message of change that happened>"
+# Example
+git commit -m "Added a paragraph about git to the README file"
+```
+
+In order to include a change in a commit the change has to be added
+
+```sh
+# Add all files that are changed
+git add .
+# or
+git add -a
+
+# Add a single file or folder
+git add README.me
+# or
+git add packages
+```
+
+Removing a file or folder from being included in the next commit
+
+```sh
+git reset -- README.md
+# or
+git reset -- packages
+```
+
+#### Git branch
+
+A git branch is a timeline of commits. A git repository can have multiple branches, where a new branch can be created from an existing branch, creating a new timeline of commits. Old commits are shared between branches, but new commits only appear on the new timeline, not on the original branch's commit history.
+
+![Example of git branching](.github/images/git-branch.png)
+
+To create a new branch from the current position in the current branch
+
+```sh
+# Branch names cannot contain spaces
+git checkout -b <branch name>
+```
+
+To switch to another branch
+
+```sh
+# Make sure you have no changes to commit in your current branch first
+git checkout <branch name>
+```
+
+#### Git merge
+
+When working on multiple branches, eventually you'll want to add the features of one branch to another branch. The process of joining the diverging timeline of commits from one branch to another is called merging.
+
+To merge from branch `a` to branch `b` run
+
+```sh
+git checkout b
+git merge a
+```
+
+#### Git push / pull
+
+Git push is used to push local commits to a remote repository (GitHub).
+
+```sh
+git push
+# or
+git push origin <branch name>
+```
+
+Git pull is used to get the latest commits from a remote repository (changes from the other developers).
+
+```sh
+git pull
+```
+
+#### Git stash
+
+If you have changes that you don't want to commit, but don't want to lose either, git stash is your friend. Git stash is a special kind of commit, that does not appear on the commit timeline.
+
+First add files and folder that you would like to stash and then run
+
+```sh
+git stash
+```
+
+To apply a stash, run, which applies the stash to the current state of your project.
+
+```sh
+git stash apply
+```
+
+To apply a stash and remove it from the stash list, run
+
+```sh
+git stash pop
+```
+
+To remove a stash from the list without applying it, run
+
+```sh
+git stash drop
+```
+
+#### Documentation
+
+The documentation for Git can be found [here](https://git-scm.com/doc). An easy git guide can be found [here](https://rogerdudler.github.io/git-guide/), explaining the most basic and common commands and concepts.
+
 ### Yarn – JavaScript package management
 
 Yarn is a JavaScript dependency manager, which allows for easily adding and removing dependencies (such as React and Express). Yarn also has a feature called `yarn workspaces`, which makes it easy to manage dependencies in a monorepo (a monorepo is a repository containing multiple applications/packages, e.g. packages/frontend and packages/backend). Running the install command anywhere within the project installs all the dependencies for all the packages in the project.
