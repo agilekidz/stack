@@ -10,6 +10,48 @@
 
 ### Yarn – JavaScript package management
 
+Yarn is a JavaScript dependency manager, which allows for easily adding and removing dependencies (such as React and Express). Yarn also has a feature called `yarn workspaces`, which makes it easy to manage dependencies in a monorepo (a monorepo is a repository containing multiple applications/packages, e.g. packages/frontend and packages/backend). Running the install command anywhere within the project installs all the dependencies for all the packages in the project.
+
+#### Usage
+
+To install all packages listen in the various `package.json`s, run
+
+```sh
+yarn # short for yarn install
+```
+
+Add a dependency
+
+```sh
+yarn add <package names>...
+# Example:
+yarn add react express
+```
+
+Add a development dependency
+
+```sh
+yarn add --dev <package names>...
+# or
+yarn add -D <package names>...
+# Example
+yarn add -D @types/react
+```
+
+Remove a dependency
+
+```sh
+yarn remove <package names>...
+# Example
+yarn remove react express @types/react
+```
+
+Adding a dependency to the root of a monorepo project requires the use of the `-W` flag. E.g.
+
+```sh
+yarn add -W -D typescript
+```
+
 #### Documentation
 
 The documentation for Yarn can found [here](https://classic.yarnpkg.com/en/docs/).
