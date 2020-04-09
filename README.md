@@ -303,6 +303,7 @@ Docker is a tool easily run applications, using containers.
 #### Tutorials
 
 * [Learn Docker in 12 minutes](https://www.youtube.com/watch?v=YFl2mCHdv24) by Jake Wright
+* [Learn Docker Compose in 12 minutes](https://www.youtube.com/watch?v=Qw9zlE3t8Ko) also by Jake Wright, a second part to the video above
 * [2 hour Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 
 ### TypeScript - less painful JavaScript
@@ -506,9 +507,6 @@ Will be used to store data, such as users and tournaments.
 
 ## Other resources
 
-VSCode setttings
+### Template project
 
-Template project: https://github.com/rosengrenen/react-node-graphql-postgres-typescript-template
-
-YARN
-Package management
+Create by me (rosen), contains pretty much everything that is needed to start making a web application and can be found [here](https://github.com/rosengrenen/react-node-graphql-postgres-typescript-template)
