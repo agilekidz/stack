@@ -338,6 +338,86 @@ The documentation for TypeScript can be found [here](https://www.typescriptlang.
 * [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) (from the official documentation)
 * [TypeScript basics with Ben Awad](https://www.youtube.com/watch?v=se72XMlG1Ro) (video)
 
+### GraphQL
+
+GraphQL is a data query and manipulation specification developed by Facebook. Makes it easy to query for the specific data that is wanted, compared to a traditional REST api.
+
+#### REST api
+
+A REST api defined CRUD (create, read, update, and delete) operations on its resources (users, tournamets etc.). Example of CRUD operations on a user resource
+
+```sh
+# Returns a list of users
+GET /api/users
+
+# Creates a new user (data omitted for readability)
+POST /api/users
+
+# Returns a specific user
+GET /api/users/1
+
+# Updates a user (e.g. settings a new name) (data omitted)
+PUT /api/users/1
+
+# Removes a user
+DELETE /api/users/1
+```
+
+A problem however arises when fetching relational data from a REST api, such as when fetching a user's tournaments' players. First a all tournaments have to be fetched
+
+```sh
+GET /api/users/1/tournaments
+```
+
+Then for each tournament its players need to be fetched
+
+```sh
+for id in tournaments
+  GET /api/tournaments/<id>/players
+```
+
+If a player is a member of 25 tournaments, 26 different requests have to be made to the API.
+
+GraphQL solves this problem by representing the data model as a graph, where relationships are outgoing nodes. The aforementioned fetching of tournament players could be represented as
+
+```graphql
+query TournamentPlayers {
+  user(id: 1) {
+    tournaments {
+      players {
+        id
+        name
+      }
+    }
+  }
+}
+```
+
+where the resulting data would be in the same shape as requested in the query
+
+```json
+{
+  "user": {
+    "tournaments": {
+      "players": [
+        {
+          id: 2,
+          name: "User 2"
+        },
+        {
+          id: 47,
+          name: "User 47"
+        }
+      ]
+    }
+  }
+}
+```
+
+#### Documentation
+
+The documentation for the GraphQL specification can be [found here](https://graphql.org/)
+
 ## Frontend
 
 ### React - framework for building *react*ive web applications
