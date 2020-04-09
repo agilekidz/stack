@@ -304,9 +304,39 @@ You can read the documentation for Docker here.
 
 ### TypeScript - less painful JavaScript
 
+TypeScript is a layer on top of JavaScript that adds type annotations and everything that comes with that, such as type checking to make sure that the right types are send to functions, that a function or property exists on an object etc. Simply helps avoid all kinds of bugs related to types.
+
+#### Examples
+
+```js
+// JavaScript
+function add(a, b) {
+  return a + b;
+}
+```
+
+```ts
+// TypeScript
+function add(a: number, b: number): number {
+  return a + b;
+}
+```
+
+```ts
+// It doesn't make sense to add an object and an array, andi n JavaScript it would result in a runtime exception
+add({}, []);
+
+// In TypeScript however, the mismatching types would be caught at compile time (TypeScript is compiled to JavaScript)
+```
+
 #### Documentation
 
-You can read the documentation for TypeScript [here](https://www.typescriptlang.org/docs/home.html).
+The documentation for TypeScript can be found [here](https://www.typescriptlang.org/docs/home.html).
+
+#### Tutorials
+
+* [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) (from the official documentation)
+* [TypeScript basics with Ben Awad](https://www.youtube.com/watch?v=se72XMlG1Ro) (video)
 
 ## Frontend
 
