@@ -463,11 +463,15 @@ The documentation for React Router can be found [here](https://reacttraining.com
 
 ### Express - HTTP library
 
+Fast and minimalistic web framework for JavaScript with support for routing, middleware, and a bunch of other things.
+
 #### Documentation
 
 The documentation for Express can be found [here](https://expressjs.com/).
 
 ### TypeORM - abstraction layer over the database
+
+TypeORM is an ORM (Object Relational Mapper) for TypeScript, simply put it is an abstraction over a relational database, such as PostgreSQL. Working with an ORM is much easier that managing raw SQL queries, but has some overhead.
 
 #### Documentation
 
@@ -475,11 +479,15 @@ The documentation for TypeORM can be found [here](https://typeorm.io/#/).
 
 ### Apollo Server - GraphQL server
 
+A production ready GraphQL server implementation in JavaScript.
+
 #### Documentation
 
 The documentation for Apollo Server can be found [here](https://www.apollographql.com/docs/apollo-server/).
 
 ### TypeGraphQL - easily build GraphQL API’s using TypeScript
+
+A tool for building GraphQL API's in TypeScript.
 
 #### Documentation
 
