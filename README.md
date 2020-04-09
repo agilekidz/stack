@@ -141,7 +141,7 @@ git stash drop
 
 The documentation for Git can be found [here](https://git-scm.com/doc). An easy git guide can be found [here](https://rogerdudler.github.io/git-guide/), explaining the most basic and common commands and concepts.
 
-### Yarn – JavaScript package management
+### Yarn - JavaScript package management
 
 Yarn is a JavaScript dependency manager, which allows for easily adding and removing dependencies (such as React and Express). Yarn also has a feature called `yarn workspaces`, which makes it easy to manage dependencies in a monorepo (a monorepo is a repository containing multiple applications/packages, e.g. packages/frontend and packages/backend). Running the install command anywhere within the project installs all the dependencies for all the packages in the project.
 
@@ -189,7 +189,7 @@ yarn add -W -D typescript
 
 The documentation for Yarn can found [here](https://classic.yarnpkg.com/en/docs/).
 
-### Jest – JavaScript testing framework
+### Jest - JavaScript testing framework
 
 Jest is a testing framework for JavaScript with easy syntax and good support for different libraries, such as React.
 
@@ -214,7 +214,7 @@ The documentation for Jest can be found [here](https://jestjs.io/docs/en/getting
 - [Jest Tutorial for Beginners](https://www.valentinog.com/blog/jest/)
 - [Testing React Apps](https://jestjs.io/docs/en/tutorial-react)
 
-### ESLint – JavaScript linting
+### ESLint - JavaScript linting
 
 ESLint is a very configurable linting tool for JavaScript. Helps maintain high code quality in an easy way.
 
@@ -268,7 +268,7 @@ Some IDE's can automatically report on found issues in current files, and fix pr
 
 You can read the documentation for ESLint [here](https://eslint.org/docs/user-guide/getting-started).
 
-### Prettier – Formatting code (JavaScript etc.)
+### Prettier - Formatting code (JavaScript etc.)
 
 Prettier is an opinionated code formatter that integrates well with ESLint.
 
@@ -284,7 +284,7 @@ You can read the documentation for Prettier [here](https://prettier.io/docs/en/i
 
 - [ESLint + Prettier](https://medium.com/javascript-scene/streamline-code-reviews-with-eslint-prettier-6fb817a6b51d)
 
-### TravisCI – continuous integration
+### TravisCI - continuous integration
 
 TravisCI is an continuous integration platform that works well with GitHub. When code is pushed to the GitHub repository Travis automatically builds, lints, and tests the project to make sure everything is working as intended. If Travis finds build, lint, or test errors it reports back to GitHub, preventing merging code that does not work properly.
 
@@ -296,13 +296,13 @@ You can read the documentation for TravisCI [here](https://docs.travis-ci.com/us
 
 - [TravisCI for JavaScript (NodeJS)](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
 
-### Docker – consistent environment
+### Docker - consistent environment
 
 #### Documentation
 
 You can read the documentation for Docker here.
 
-### TypeScript – less painful JavaScript
+### TypeScript - less painful JavaScript
 
 #### Documentation
 
@@ -310,19 +310,19 @@ You can read the documentation for TypeScript [here](https://www.typescriptlang.
 
 ## Frontend
 
-### React – framework for building *react*ive web applications
+### React - framework for building *react*ive web applications
 
 #### Documentation
 
 You can read the documentation for React [here](https://reactjs.org/docs/getting-started.html).
 
-### Apollo Client – library to make working with GraphQL API’s easy
+### Apollo Client - library to make working with GraphQL API’s easy
 
 #### Documentation
 
 You can read the documentation for Apollo Client [here](https://www.apollographql.com/docs/react/v3.0-beta).
 
-### React Router – different url, different content
+### React Router - different url, different content
 
 #### Documentation
 
@@ -330,25 +330,25 @@ You can read the documentation for Router Router here.
 
 ## Backend
 
-### Express – HTTP library
+### Express - HTTP library
 
 #### Documentation
 
 You can read the documentation for Express [here](https://expressjs.com/).
 
-### TypeORM – abstraction layer over the database
+### TypeORM - abstraction layer over the database
 
 #### Documentation
 
 You can read the documentation for TypeORM [here](https://typeorm.io/#/).
 
-### Apollo Server – GraphQL server
+### Apollo Server - GraphQL server
 
 #### Documentation
 
 You can read the documentation for Apollo Server [here](https://www.apollographql.com/docs/apollo-server/).
 
-### TypeGraphQL – easily build GraphQL API’s using TypeScript
+### TypeGraphQL - easily build GraphQL API’s using TypeScript
 
 #### Documentation
 
