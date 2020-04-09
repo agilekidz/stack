@@ -357,9 +357,15 @@ The documentation for React can be found [here](https://reactjs.org/docs/getting
 
 ### Apollo Client - library to make working with GraphQL API’s easy
 
+Apollo Client is a library that manages requests to a GraphQL endpoint. It also manages state and cache for the user, so that data that's already been fetched doesn't need to be fetched from the endpoint again in order to view the data.
+
 #### Documentation
 
-The documentation for Apollo Client can be found [here](https://www.apollographql.com/docs/react/v3.0-beta).
+The documentation for Apollo Client can be found [here](https://www.apollographql.com/docs/react/).
+
+#### Tutorials
+
+* [GraphQL in React with Apollo Client](https://rubygarage.org/blog/graphql-in-react-with-apollo-client)
 
 ### React Router - different url, different content
 
