@@ -266,7 +266,7 @@ Some IDE's can automatically report on found issues in current files, and fix pr
 
 #### Documentation
 
-You can read the documentation for ESLint [here](https://eslint.org/docs/user-guide/getting-started).
+The documentation for ESLint can be found [here](https://eslint.org/docs/user-guide/getting-started).
 
 ### Prettier - Formatting code (JavaScript etc.)
 
@@ -278,7 +278,7 @@ Usage is integrated with ESLint so it is automatically run when using `yarn lint
 
 #### Documentation
 
-You can read the documentation for Prettier [here](https://prettier.io/docs/en/install.html).
+The documentation for Prettier can be found [here](https://prettier.io/docs/en/install.html).
 
 #### Tutorials
 
@@ -290,7 +290,7 @@ TravisCI is an continuous integration platform that works well with GitHub. When
 
 #### Documentation
 
-You can read the documentation for TravisCI [here](https://docs.travis-ci.com/user/tutorial/).
+The documentation for TravisCI can be found [here](https://docs.travis-ci.com/user/tutorial/).
 
 #### Tutorials
 
@@ -300,7 +300,7 @@ You can read the documentation for TravisCI [here](https://docs.travis-ci.com/us
 
 #### Documentation
 
-You can read the documentation for Docker here.
+The documentation for Docker can be found here.
 
 ### TypeScript - less painful JavaScript
 
@@ -346,7 +346,7 @@ React is a library created by and maintained by Facebook that makes it easy to b
 
 #### Documentation
 
-You can read the documentation for React [here](https://reactjs.org/docs/getting-started.html).
+The documentation for React can be found [here](https://reactjs.org/docs/getting-started.html).
 
 #### Tutorials
 
@@ -359,13 +359,13 @@ You can read the documentation for React [here](https://reactjs.org/docs/getting
 
 #### Documentation
 
-You can read the documentation for Apollo Client [here](https://www.apollographql.com/docs/react/v3.0-beta).
+The documentation for Apollo Client can be found [here](https://www.apollographql.com/docs/react/v3.0-beta).
 
 ### React Router - different url, different content
 
 #### Documentation
 
-You can read the documentation for Router Router here.
+The documentation for React Router can be found here.
 
 ## Backend
 
@@ -373,25 +373,25 @@ You can read the documentation for Router Router here.
 
 #### Documentation
 
-You can read the documentation for Express [here](https://expressjs.com/).
+The documentation for Express can be found [here](https://expressjs.com/).
 
 ### TypeORM - abstraction layer over the database
 
 #### Documentation
 
-You can read the documentation for TypeORM [here](https://typeorm.io/#/).
+The documentation for TypeORM can be found [here](https://typeorm.io/#/).
 
 ### Apollo Server - GraphQL server
 
 #### Documentation
 
-You can read the documentation for Apollo Server [here](https://www.apollographql.com/docs/apollo-server/).
+The documentation for Apollo Server can be found [here](https://www.apollographql.com/docs/apollo-server/).
 
 ### TypeGraphQL - easily build GraphQL API’s using TypeScript
 
 #### Documentation
 
-You can read the documentation for TypeGraphQL [here](https://typegraphql.com/).
+The documentation for TypeGraphQL can be found [here](https://typegraphql.com/).
 
 ## Database
 
