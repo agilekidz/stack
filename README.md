@@ -449,9 +449,15 @@ The documentation for Apollo Client can be found [here](https://www.apollographq
 
 ### React Router - different url, different content
 
+Dynamically show different content depending on the url and parameters.
+
 #### Documentation
 
-The documentation for React Router can be found here.
+The documentation for React Router can be found [here](https://reacttraining.com/react-router/web/guides/quick-start).
+
+#### Tutorials
+
+* [React Router 5 with hooks](https://dev.to/finallynero/hooks-introduced-in-react-router-v5-1-7g8)
 
 ## Backend
 
