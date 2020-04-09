@@ -298,9 +298,12 @@ The documentation for TravisCI can be found [here](https://docs.travis-ci.com/us
 
 ### Docker - consistent environment
 
-#### Documentation
+Docker is a tool easily run applications, using containers.
 
-The documentation for Docker can be found here.
+#### Tutorials
+
+* [Learn Docker in 12 minutes](https://www.youtube.com/watch?v=YFl2mCHdv24) by Jake Wright
+* [2 hour Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 
 ### TypeScript - less painful JavaScript
 
