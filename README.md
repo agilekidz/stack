@@ -342,9 +342,18 @@ The documentation for TypeScript can be found [here](https://www.typescriptlang.
 
 ### React - framework for building *react*ive web applications
 
+React is a library created by and maintained by Facebook that makes it easy to build interactive user interfaces for the web.
+
 #### Documentation
 
 You can read the documentation for React [here](https://reactjs.org/docs/getting-started.html).
+
+#### Tutorials
+
+* [React official tutorial](https://reactjs.org/tutorial/tutorial.html)
+* [Tyler McGinnis' React tutorial](https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
+* [The legendary Dan Abramov's Making sense of React hooks](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
+* [Introduction to React hooks](https://reactjs.org/docs/hooks-intro.html)
 
 ### Apollo Client - library to make working with GraphQL API’s easy
 
