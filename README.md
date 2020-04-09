@@ -405,12 +405,12 @@ where the resulting data would be in the same shape as requested in the query
     "tournaments": {
       "players": [
         {
-          id: 2,
-          name: "User 2"
+          "id": 2,
+          "name": "User 2"
         },
         {
-          id: 47,
-          name: "User 47"
+          "id": 47,
+          "name": "User 47"
         }
       ]
     }
